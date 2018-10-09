@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 1em;
+    overflow-x: hidden;
+}
+
+.task {
+    display: flex;
+    padding: 0.5em 1em;
+    align-items: center;
+
+    width: 90%;
+    margin: auto;
+}
+
+.form-task-label {
+    padding: 1em;
+    text-align: center;
+}
+
+.form-add-task {
+    transform: scale(1.5);
+    margin-left: 3em;
+}
+.form-status-title {
+    font-weight: bold;
+
+}
+#form-text-input {
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.task-name {
+    padding: 0 1em;
+    width: 65%;
+}
+
+.form-task-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 2em auto;
+    min-height: 2em;
+    
+}
+
+.checkbox {
+    width: 15%;
+    transform: scale(2);
+}
+
+.remove-task-button {
+    border: none;
+
+}

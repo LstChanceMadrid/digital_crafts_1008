@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>ToDo List</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+
+    </head>
+    
+    <body>
+    
+        <form class="form-container">
+            <label class="form-task-label">Enter Task: </label>
+
+            <br>
+            
+            <input id="form-text-input" type="text" placeholder="Enter Task" required />
+
+            <input id="add-task" class="form-add-task" type="button" value="Add" />
+
+            <fieldset id="pending-tasks" class="form-task-list">
+                <legend id="pending-legend" class="form-status-title">Pending Tasks</legend>
+            </fieldset>
+
+            <fieldset id="completed-tasks" class="form-task-list">
+                <legend id="completed-legend" class="form-status-title">Completed Tasks</legend>
+            </fieldset>
+
+
+
+
+            <!--<li style="display: flex; align-items: center;">
+            <input type="checkbox" />
+            <p>stuff</p>
+            <input type="button" />
+            </li> -->
+
+
+        </form>
+
+
+        <script src="scripts/main.js"></script>
+    </body>
+</html>

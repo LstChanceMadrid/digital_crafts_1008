@@ -1,0 +1,1 @@
+digital crafts monday assignments. javascript website is a website created purely from javascript, css, and the very basic html5 framework. todo-list is an application merging DOM to creat a todo list that can add items, delete items, and also shift the items between separate lists

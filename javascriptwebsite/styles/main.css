@@ -1,0 +1,76 @@
+
+body {
+    margin: 0;
+    padding: 2em;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    background: rgb(73, 165, 196);
+    color: white;
+    font-weight: bold;
+}
+
+    .header-title {
+        padding: 0 1em;
+        font-size: 2em;
+    }
+
+    .header-nav-bar {
+        display: flex;
+        align-items: center;
+        font-size: 1.1em;
+    }
+
+        .header-nav-item {
+            padding: 0 1em;
+        }
+
+.jumbotron-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(95, 87, 87);
+    background: rgba(200, 200, 200, 1);
+    width: 90%;
+    margin: 1em auto;
+}
+
+    .jumbotron-title {
+        width: 100%;
+        font-size: 1.75em;
+        padding: 1em 1em 0 1em;
+    }
+
+    .jumbotron-description {
+        padding: 0 1em;
+    }
+
+.comment-container {
+    width: 90%;
+    margin: auto;
+}
+
+    .comment-div {
+        display: block
+    }
+
+        .comment-title {
+            color: blue;
+            margin: 0;
+        }
+
+        .comment-description {
+            margin: 0;
+            padding-top: 0.5em;
+        }
+
+        .comment-bar {
+            background: orange;
+            display: flex;
+        }
+
+            .comment-bar-item {
+                color: white;
+                padding: 0 2em;
+            }
