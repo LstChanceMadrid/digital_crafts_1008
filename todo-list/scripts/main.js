@@ -44,39 +44,32 @@ addTask.addEventListener("click", function(e) {
     taskInput.value = "";
     
 
+// removes a task
 
 
 removeTaskButton.addEventListener("click", function() {
 
      this.parentElement.parentElement.removeChild(this.parentElement);
-})
-
-
-
-    checkbox.addEventListener('change', function(event) {
-        if ( this.parentElement.parentElement === pendingTasks ) {
-
-        completedTasks.appendChild(checkbox.parentElement);
-        }
-        else {
-
-        //checkbox.addEventListener('change', function() {
-
-
-            pendingTasks.appendChild(checkbox.parentElement);}
-            
-        //})
-    
-    })
-
-})
-
-// removes a task
-//removeTaskButton.addEventListener("click", function() {
-
-  //  newTask.removeChild(this.parentElement);
-//})
+});
 
 
 
 // changes a task from pending and complete
+
+    checkbox.addEventListener('change', function(event) {
+
+        if ( this.parentElement.parentElement === pendingTasks ) {
+
+            completedTasks.appendChild(checkbox.parentElement);
+        } else {
+            pendingTasks.appendChild(checkbox.parentElement);
+        }
+    
+    });
+
+});
+
+
+
+
+

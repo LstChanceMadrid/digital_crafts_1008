@@ -4,55 +4,75 @@ body {
     overflow-x: hidden;
 }
 
-.task {
-    display: flex;
-    padding: 0.5em 1em;
-    align-items: center;
-
-    width: 90%;
+.form-container {
+    width: 100%;
+    max-width: 1080px;
     margin: auto;
 }
 
-.form-task-label {
-    padding: 1em;
-    text-align: center;
-}
+    .form-task-label {
+        padding: 1em;
+        text-align: center;
+    }
 
-.form-add-task {
-    transform: scale(1.5);
-    margin-left: 3em;
-}
-.form-status-title {
-    font-weight: bold;
+    #form-text-input {
+        padding: 0.5em;
+        margin-top: 1em;
+        margin-left: 1em;
+        font-weight: bold;
+    }
 
-}
-#form-text-input {
-    padding: 0.5em;
-    margin-top: 1em;
-    margin-left: 1em;
-    font-weight: bold;
-}
+    .form-add-task {
+        transform: scale(1.5);
+        margin-left: 3em;
+    }
 
-.task-name {
-    padding: 0 1em;
-    width: 65%;
-}
+    .form-task-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 2em auto;
+        min-height: 2em;
+        padding: 0 1em;
+        justify-content: center;
 
-.form-task-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 2em auto;
-    min-height: 2em;
-    
-}
+    }
 
-.checkbox {
-    width: 15%;
-    transform: scale(2);
-}
+    .form-status-title {
+        font-weight: bold;
+    }
 
-.remove-task-button {
-    border: none;
 
-}
+    .task {
+        display: flex;
+        padding: 0.5em 1em;
+        align-items: center;
+        width: 90%;
+        max-width: 540px;
+        margin: 1em auto;
+        background: black;
+
+    }
+
+        .task-name {
+            width: 80%;
+            padding: 0 1em;
+            color: white;
+        }
+
+
+
+        .checkbox {
+            transform: scale(2);
+            color:gray;
+            background: gray;
+        }
+
+
+        /* input[type="checkbox"]:checked + label {
+            color: gray;
+        } */
+
+        .remove-task-button {
+            border: none;
+        }
